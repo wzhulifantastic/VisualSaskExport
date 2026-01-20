@@ -1,0 +1,13 @@
+[project]
+name = "visualsaskexport"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "jupyter-collaboration>=4.2.0",
+    "jupyterlab>=4.5.2",
+    "pandas>=2.3.3",
+    "plotly>=6.5.2",
+]

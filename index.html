@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saskatchewan Ag Export Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        /* --- Dark Mode MVP Framework --- */
+        :root {
+            --bg-color: #121212;        /* 极深灰背景 */
+            --card-bg: #1e1e1e;         /* 卡片背景 */
+            --text-main: #e0e0e0;       /* 主文字色 */
+            --text-sub: #a0a0a0;        /* 副文字色 */
+            --accent: #00d2ff;          /* 科技蓝点缀 */
+        }
+
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-main); 
+            margin: 0; 
+            padding: 40px; 
+            display: flex;
+            justify-content: center;
+        }
+
+        .card { 
+            background-color: var(--card-bg); 
+            width: 100%;
+            max-width: 1400px;          /* 宽屏视野 */
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* 深邃阴影 */
+            border: 1px solid #333;     /* 微妙的边框 */
+        }
+
+        h1 { 
+            color: var(--text-main); 
+            font-weight: 300; 
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+
+        p { color: var(--text-sub); margin-bottom: 30px; }
+
+        #chart-box { 
+            width: 100%; 
+            height: 700px;              /* 稍微加高一点 */
+            border-radius: 4px;
+            /* 这里的背景色留白，等待 Plotly 图表填充 */
+        }
+    </style>
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🌾 SK 省农业出口数据看板 (2024-2025)</h1>
+        <p>数据驱动的贸易洞察 · 自动生成</p>
+        
+        <div id="chart-box"></div>
+    </div>
+
+    <script>
+        // 读取刚才生成的 JSON 文件
+        fetch('export_data.json')
+            .then(response => response.json())
+            .then(data => {
+                // 把图画在 id="chart-box" 的格子里
+                Plotly.newPlot('chart-box', data.data, data.layout, {responsive: true});
+            })
+            .catch(err => alert("加载失败！请确保你启动了 python server。错误信息：" + err));
+    </script>
+
+</body>
+</html>
