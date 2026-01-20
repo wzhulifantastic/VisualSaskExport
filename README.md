@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-VisualSaskExport 是一个针对加拿大萨斯喀彻温省（Saskatchewan）农业出口数据的可视化分析工具。该项目结合了 Python 数据处理、Jupyter Notebook 交互式分析和 Web 可视化界面，帮助用户理解和探索农业出口趋势。
+VisualSaskExport 是一个针对加拿大萨斯喀彻温省（Saskatchewan）农业出口数据的可视化分析工具。该项目结合了 Python 数据处理、Jupyter Notebook 交互式分析和 Web 可视化界面，帮助用户理解和探索农业出口趋势。数据来源：Canadian International Merchandise Trade Web Application中Exports的Data extraction。
 
 ## 项目结构
 
@@ -140,7 +140,7 @@ pip install -r requirements.txt
 
 ## 许可证
 
-本项目采用 MIT 许可证。详情请参阅项目根目录的 LICENSE 文件（如存在）。
+本项目采用 MIT 许可证。
 
 ---
 
