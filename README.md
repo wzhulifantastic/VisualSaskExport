@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-VisualSaskExport 是一个针对加拿大萨斯喀彻温省（Saskatchewan）农业出口数据的可视化分析工具。该项目结合了 Python 数据处理、Jupyter Notebook 交互式分析和 Web 可视化界面，帮助用户理解和探索农业出口趋势。数据来源：Canadian International Merchandise Trade Web Application中Exports的Data extraction。
+VisualSaskExport 是一个针对加拿大萨斯喀彻温省（Saskatchewan）农业出口数据的可视化分析工具。该项目结合了 Python 数据处理、Jupyter Notebook 交互式分析和 Web 可视化界面，帮助用户理解和探索农业出口趋势。Data Source：Canadian International Merchandise Trade Web Application中Exports的Data extraction。
 
 ## 项目结构
 
@@ -46,7 +46,7 @@ pip install -e .
 ```
 
 ### 步骤 2：数据准备
-- 将原始数据文件（如 `CA-CN2024-2025report.csv`）放置在项目根目录
+- 将原始数据文件（如 `SK-CN_2024-2025Oct_Report.csv`）放置在项目根目录
 - 数据应包含时间序列、产品类别、出口量等字段
 
 ### 步骤 3：运行分析
@@ -68,7 +68,7 @@ jupyter notebook VisualSaskExport_AgExport.ipynb
 ### 1. 数据层（Data Layer）
 - **功能**：负责数据的读取、清洗和存储
 - **组件**：CSV 解析器、数据验证器、JSON 导出器
-- **文件**：`CA-CN2024-2025report.csv`, `export_data.json`
+- **文件**：`SK-CN_2024-2025Oct_Report.csv`, `export_data.json`
 
 ### 2. 分析层（Analysis Layer）
 - **功能**：执行核心数据分析算法和计算
@@ -94,9 +94,9 @@ jupyter notebook VisualSaskExport_AgExport.ipynb
 
 ```
 原始 CSV 数据 → 数据清洗 → 分析处理 → 可视化生成 → Web 展示
-      ↓              ↓           ↓           ↓           ↓
-   CA-CN2024   Python脚本   Jupyter   图表库    HTML/JS
-    -2025report   或         Notebook          页面
+      ↓            ↓           ↓           ↓           ↓
+    Export      Python脚本   Jupyter     图表库      HTML/JS
+    report          or       Notebook     页面
     .csv         Notebook
 ```
 
