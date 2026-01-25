@@ -2,589 +2,81 @@
   "data": [
     {
       "customdata": [
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
-        "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken"
+        "(Top 8) [HS 1201.90.30] Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing",
+        "(Top 8) [HS 1201.90.30] Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Canola Complex",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Soya Beans",
+      "legendrank": 34,
       "marker": {
-        "color": "#C62828"
+        "color": "#00BCD4"
       },
-      "name": "(Top 1) Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+      "name": "(Top 8) [HS 1201.90.30]<br>Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing",
       "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08"
+        "2024<br>Nov",
+        "2025<br>Oct"
       ],
       "y": [
-        117049999.0,
-        87640127.0,
-        168745749.0,
-        128419215.0,
-        284652918.0,
-        240815860.0,
-        163042057.0,
-        269713888.0,
-        203364121.0,
-        321198394.0,
-        156037727.0,
-        40692413.0,
-        146123260.0,
-        58180418.0,
-        145830101.0,
-        170657788.0,
-        26104377.0,
-        101050689.0,
-        73787590.0,
-        48152784.0
+        151613057.0,
+        83483306.0
       ],
       "type": "bar"
     },
     {
       "customdata": [
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-        "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned"
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+        "(Top 7) [HS 4705.00.00] Wood pulp, obtained by a combination of mechanical & chemical pulping processes"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "(Top 10) Peas, yellow, nes, dried, shelled, w/n skinned",
-      "x": [
-        "2024-01",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        1302250.0,
-        22792039.0,
-        1496808.0,
-        4685998.0,
-        45107.0,
-        402887.0,
-        159120.0,
-        20475898.0,
-        4334031.0,
-        7175243.0,
-        3134696.0,
-        11547905.0,
-        34028407.0,
-        2825895.0,
-        68130815.0,
-        162619.0,
-        329904.0,
-        4831552.0,
-        1135124.0,
-        29384676.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-        "(Top 2) Potassium chloride, in packages weighing more than 10 kg"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Potash",
-      "marker": {
-        "color": "#9C27B0"
-      },
-      "name": "(Top 2) Potassium chloride, in packages weighing more than 10 kg",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        68173427.0,
-        61543295.0,
-        10837796.0,
-        37792936.0,
-        4407513.0,
-        18906065.0,
-        36200854.0,
-        43942903.0,
-        49147656.0,
-        80126053.0,
-        67932438.0,
-        26207569.0,
-        7017500.0,
-        19704753.0,
-        7391277.0,
-        22059252.0,
-        9696295.0,
-        31805746.0,
-        59476601.0,
-        116819136.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-        "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Canola Complex",
-      "marker": {
-        "color": "#EF6C00"
-      },
-      "name": "(Top 3) Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08"
-      ],
-      "y": [
-        26267533.0,
-        43559156.0,
-        37670312.0,
-        28305039.0,
-        59287742.0,
-        31089580.0,
-        35546851.0,
-        52672483.0,
-        47496485.0,
-        45796388.0,
-        46981365.0,
-        41274474.0,
-        69510111.0,
-        53062533.0,
-        31843845.0,
-        22620783.0,
-        2750490.0,
-        11833341.0,
-        12551100.0,
-        346553.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-        "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Wheat Complex",
-      "marker": {
-        "color": "#1565C0"
-      },
-      "name": "(Top 4) Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        8442758.0,
-        42733338.0,
-        36938966.0,
-        36901992.0,
-        1565204.0,
-        9882639.0,
-        24935110.0,
-        3587781.0,
-        12209213.0,
-        3181850.0,
-        1631528.0,
-        18266287.0,
-        19499906.0,
-        29933198.0,
-        16120921.0,
-        22775665.0,
-        13704833.0,
-        18510532.0,
-        8995579.0,
-        16395179.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-        "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Wheat Complex",
-      "marker": {
-        "color": "#42A5F5"
-      },
-      "name": "(Top 5) Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        35805670.0,
-        11734880.0,
-        10088887.0,
-        31484029.0,
-        13965436.0,
-        12113961.0,
-        666631.0,
-        6013380.0,
-        3111051.0,
-        5371981.0,
-        2175784.0,
-        704307.0,
-        11127359.0,
-        34149283.0,
-        21558286.0,
-        40283684.0,
-        20321330.0,
-        26768483.0,
-        10859921.0,
-        7793071.0,
-        31191536.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing",
-        "(Top 6) Barley, for malting, o/t seed for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Barley Family",
-      "marker": {
-        "color": "#2E7D32"
-      },
-      "name": "(Top 6) Barley, for malting, o/t seed for sowing",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        192663.0,
-        18635547.0,
-        19262428.0,
-        17672411.0,
-        15858096.0,
-        6906496.0,
-        2333573.0,
-        4462199.0,
-        9685663.0,
-        29287895.0,
-        26824219.0,
-        10716077.0,
-        2146532.0,
-        3832207.0,
-        18340013.0,
-        14589298.0,
-        15227395.0,
-        6989461.0,
-        411334.0,
-        20968741.0,
-        49096877.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
-        "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Wood Pulp",
+      "legendrank": 33,
       "marker": {
         "color": "#5D4037"
       },
-      "name": "(Top 7) Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
+      "name": "(Top 7) [HS 4705.00.00]<br>Wood pulp, obtained by a combination of mechanical & chemical pulping processes",
       "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
       ],
       "y": [
         16542129.0,
@@ -614,75 +106,784 @@
     },
     {
       "customdata": [
-        "(Top 8) Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing",
-        "(Top 8) Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing"
+        "[HS 1104.22.00] Oats, hulled,pearled,sliced or kibbled"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Soya Beans",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 32,
       "marker": {
-        "color": "#00BCD4"
+        "color": "#F9A825"
       },
-      "name": "(Top 8) Soya beans,o/t certified organic,for oil extraction,w/n broken,o/t seed f sowing",
+      "name": "[HS 1104.22.00] Oats,<br>hulled,pearled,sliced or kibbled",
       "x": [
-        "2024-11",
-        "2025-10"
+        "2025<br>Mar"
       ],
       "y": [
-        151613057.0,
-        83483306.0
+        20311.0
       ],
       "type": "bar"
     },
     {
       "customdata": [
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
-        "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting"
+        "[HS 0713.40.99] Lentils, o/t organic, nes, dried, shelled, w/n skinned/split, o/t seeds f sowing"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 31,
+      "marker": {
+        "color": "#795548"
+      },
+      "name": "[HS 0713.40.99] Lentils,<br>o/t organic, nes, dried, shelled, w/n skinned/split, o/t seeds f sowing",
+      "x": [
+        "2025<br>Oct"
+      ],
+      "y": [
+        169303.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0708.10.00] Peas, shelled or unshelled, fresh or chilled"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 30,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0708.10.00] Peas,<br>shelled or unshelled, fresh or chilled",
+      "x": [
+        "2024<br>Apr"
+      ],
+      "y": [
+        199668.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.40.95] Lentils, o/t organic, red, dried, shelled, w/n skinned/split, nes"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 29,
+      "marker": {
+        "color": "#795548"
+      },
+      "name": "[HS 0713.40.95] Lentils,<br>o/t organic, red, dried, shelled, w/n skinned/split, nes",
+      "x": [
+        "2024<br>Jul"
+      ],
+      "y": [
+        218295.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.20.91] Chickpeas, Kabuli varieties, dried, shelled, whether or not skinned or split"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 28,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.20.91] Chickpeas,<br>Kabuli varieties, dried, shelled, whether or not skinned or split",
+      "x": [
+        "2024<br>Apr"
+      ],
+      "y": [
+        274256.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.40.10] Lentil seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.40.10] Lentil seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.40.10] Lentil seeds, of a kind used for sowing, dried, shelled"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 27,
+      "marker": {
+        "color": "#795548"
+      },
+      "name": "[HS 0713.40.10] Lentil<br>seeds, of a kind used for sowing, dried, shelled",
+      "x": [
+        "2024<br>Feb",
+        "2024<br>Apr",
+        "2024<br>Nov"
+      ],
+      "y": [
+        96370.0,
+        54026.0,
+        162028.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.40.94] Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
+        "[HS 0713.40.94] Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
+        "[HS 0713.40.94] Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
+        "[HS 0713.40.94] Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 26,
+      "marker": {
+        "color": "#795548"
+      },
+      "name": "[HS 0713.40.94] Lentils,<br>o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
+      "x": [
+        "2024<br>Feb",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2025<br>Sep"
+      ],
+      "y": [
+        173052.0,
+        324177.0,
+        456627.0,
+        95801.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.40.21] Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes",
+        "[HS 0713.40.21] Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes",
+        "[HS 0713.40.21] Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 25,
+      "marker": {
+        "color": "#795548"
+      },
+      "name": "[HS 0713.40.21] Lentils,certified<br>organic,green,incl French,dried,shelled,w/n skinned/split,nes",
+      "x": [
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul"
+      ],
+      "y": [
+        813122.0,
+        218988.0,
+        415404.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1104.29.90] Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
+        "[HS 1104.29.90] Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
+        "[HS 1104.29.90] Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
+        "[HS 1104.29.90] Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
+        "[HS 1104.29.90] Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 24,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 1104.29.90] Cereals,<br>nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
+      "x": [
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Oct"
+      ],
+      "y": [
+        563904.0,
+        569844.0,
+        249724.0,
+        552822.0,
+        306124.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+        "[HS 0713.10.29] Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 23,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.10.29] Peas,certified<br>organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Mar",
+        "2024<br>Jun",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar"
+      ],
+      "y": [
+        543209.0,
+        169186.0,
+        74193.0,
+        465794.0,
+        1672494.0,
+        945234.0,
+        100079.0,
+        66063.0,
+        967759.0,
+        397571.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes",
+        "[HS 0713.10.93] Peas, split, dried, nes"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 22,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.10.93] Peas,<br>split, dried, nes",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        944240.0,
+        1492651.0,
+        831504.0,
+        326329.0,
+        106372.0,
+        463966.0,
+        524988.0,
+        1046089.0,
+        2239088.0,
+        1505643.0,
+        7158152.0,
+        685347.0,
+        619163.0,
+        71273.0,
+        87902.0,
+        512972.0,
+        487709.0,
+        1123189.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled",
+        "[HS 0713.10.10] Pea seeds, of a kind used for sowing, dried, shelled"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 21,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.10.10] Pea seeds,<br>of a kind used for sowing, dried, shelled",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep"
+      ],
+      "y": [
+        3389937.0,
+        1489410.0,
+        2508278.0,
+        767099.0,
+        944650.0,
+        801807.0,
+        421630.0,
+        532899.0,
+        2420914.0,
+        3472599.0,
+        1850667.0,
+        3965752.0,
+        1906304.0,
+        599017.0,
+        56735.0,
+        160025.0,
+        214055.0,
+        121961.0,
+        114561.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+        "[HS 0713.10.21] Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 20,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.10.21] Peas,certified<br>organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Apr"
+      ],
+      "y": [
+        941754.0,
+        2719469.0,
+        3052547.0,
+        1005042.0,
+        5841092.0,
+        2132878.0,
+        1180505.0,
+        213886.0,
+        1860581.0,
+        3109562.0,
+        2357130.0,
+        1754683.0,
+        757132.0,
+        618578.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.94] Peas, green, nes, dried, shelled, w/n skinned"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 19,
+      "marker": {
+        "color": "#CDDC39"
+      },
+      "name": "[HS 0713.10.94] Peas,<br>green, nes, dried, shelled, w/n skinned",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May"
+      ],
+      "y": [
+        2137038.0,
+        2626992.0,
+        850144.0,
+        693107.0,
+        587373.0,
+        665586.0,
+        728355.0,
+        597950.0,
+        2789243.0,
+        3076942.0,
+        2224319.0,
+        2942353.0,
+        4832118.0,
+        1857757.0,
+        848212.0,
+        294509.0,
+        8836.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned",
+        "[HS 0713.10.99] Peas, nes, dried, shelled, w/n skinned"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 18,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "[HS 0713.10.99] Peas,<br>nes, dried, shelled, w/n skinned",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Aug",
+        "2025<br>Oct"
+      ],
+      "y": [
+        228733.0,
+        2563906.0,
+        1657659.0,
+        441748.0,
+        564536.0,
+        490087.0,
+        419875.0,
+        347512.0,
+        997012.0,
+        4910335.0,
+        3429706.0,
+        2487842.0,
+        4916220.0,
+        2952008.0,
+        4177907.0,
+        98338.0,
+        56139.0,
+        43197.0,
+        402349.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned",
+        "(Top 10) [HS 0713.10.95] Peas, yellow, nes, dried, shelled, w/n skinned"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Pulses Complex",
+      "legendrank": 17,
+      "marker": {
+        "color": "#F9A825"
+      },
+      "name": "(Top 10) [HS 0713.10.95]<br>Peas, yellow, nes, dried, shelled, w/n skinned",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        1302250.0,
+        22792039.0,
+        1496808.0,
+        4685998.0,
+        45107.0,
+        402887.0,
+        159120.0,
+        20475898.0,
+        4334031.0,
+        7175243.0,
+        3134696.0,
+        11547905.0,
+        34028407.0,
+        2825895.0,
+        68130815.0,
+        162619.0,
+        329904.0,
+        4831552.0,
+        1135124.0,
+        29384676.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1003.90.30] Barley, certified organic, o/t seed for sowing or for malting",
+        "[HS 1003.90.30] Barley, certified organic, o/t seed for sowing or for malting",
+        "[HS 1003.90.30] Barley, certified organic, o/t seed for sowing or for malting",
+        "[HS 1003.90.30] Barley, certified organic, o/t seed for sowing or for malting"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Barley Family",
+      "legendrank": 16,
+      "marker": {
+        "color": "#2E7D32"
+      },
+      "name": "[HS 1003.90.30] Barley,<br>certified organic, o/t seed for sowing or for malting",
+      "x": [
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep"
+      ],
+      "y": [
+        87549.0,
+        95792.0,
+        99597.0,
+        89184.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1003.10.00] Barley, seed for sowing",
+        "[HS 1003.10.00] Barley, seed for sowing",
+        "[HS 1003.10.00] Barley, seed for sowing",
+        "[HS 1003.10.00] Barley, seed for sowing",
+        "[HS 1003.10.00] Barley, seed for sowing",
+        "[HS 1003.10.00] Barley, seed for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Barley Family",
+      "legendrank": 15,
       "marker": {
         "color": "#81C784"
       },
-      "name": "(Top 9) Barley, o/t certified organic, o/t seed for sowing or malting",
+      "name": "[HS 1003.10.00] Barley,<br>seed for sowing",
       "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-09",
-        "2025-10"
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2025<br>Mar",
+        "2025<br>Oct"
+      ],
+      "y": [
+        229079.0,
+        188614.0,
+        29756.0,
+        51955.0,
+        3556.0,
+        325996.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting",
+        "(Top 9) [HS 1003.90.80] Barley, o/t certified organic, o/t seed for sowing or malting"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Barley Family",
+      "legendrank": 14,
+      "marker": {
+        "color": "#81C784"
+      },
+      "name": "(Top 9) [HS 1003.90.80]<br>Barley, o/t certified organic, o/t seed for sowing or malting",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Sep",
+        "2025<br>Oct"
       ],
       "y": [
         9207411.0,
@@ -710,124 +911,96 @@
     },
     {
       "customdata": [
-        "Barley, certified organic, o/t seed for sowing or for malting",
-        "Barley, certified organic, o/t seed for sowing or for malting",
-        "Barley, certified organic, o/t seed for sowing or for malting",
-        "Barley, certified organic, o/t seed for sowing or for malting"
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing",
+        "(Top 6) [HS 1003.90.20] Barley, for malting, o/t seed for sowing"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Barley Family",
+      "legendrank": 13,
       "marker": {
         "color": "#2E7D32"
       },
-      "name": "Barley, certified organic, o/t seed for sowing or for malting",
+      "name": "(Top 6) [HS 1003.90.20]<br>Barley, for malting, o/t seed for sowing",
       "x": [
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09"
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Sep",
+        "2025<br>Oct"
       ],
       "y": [
-        87549.0,
-        95792.0,
-        99597.0,
-        89184.0
+        192663.0,
+        18635547.0,
+        19262428.0,
+        17672411.0,
+        15858096.0,
+        6906496.0,
+        2333573.0,
+        4462199.0,
+        9685663.0,
+        29287895.0,
+        26824219.0,
+        10716077.0,
+        2146532.0,
+        3832207.0,
+        18340013.0,
+        14589298.0,
+        15227395.0,
+        6989461.0,
+        411334.0,
+        20968741.0,
+        49096877.0
       ],
       "type": "bar"
     },
     {
       "customdata": [
-        "Barley, seed for sowing",
-        "Barley, seed for sowing",
-        "Barley, seed for sowing",
-        "Barley, seed for sowing",
-        "Barley, seed for sowing",
-        "Barley, seed for sowing"
+        "[HS 1001.19.10] Durum wheat, certified organic, o/t seed for sowing"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Barley Family",
-      "marker": {
-        "color": "#81C784"
-      },
-      "name": "Barley, seed for sowing",
-      "x": [
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2025-03",
-        "2025-10"
-      ],
-      "y": [
-        229079.0,
-        188614.0,
-        29756.0,
-        51955.0,
-        3556.0,
-        325996.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
-        "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
-        "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
-        "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
-        "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Cereals, nes, hulled, pearled, sliced or kibbled, o/t rice of No 10.06",
-      "x": [
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-10"
-      ],
-      "y": [
-        563904.0,
-        569844.0,
-        249724.0,
-        552822.0,
-        306124.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Chickpeas, Kabuli varieties, dried, shelled, whether or not skinned or split"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Chickpeas, Kabuli varieties, dried, shelled, whether or not skinned or split",
-      "x": [
-        "2024-04"
-      ],
-      "y": [
-        274256.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Durum wheat, certified organic, o/t seed for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Wheat Complex",
+      "legendrank": 12,
       "marker": {
         "color": "#455A64"
       },
-      "name": "Durum wheat, certified organic, o/t seed for sowing",
+      "name": "[HS 1001.19.10] Durum<br>wheat, certified organic, o/t seed for sowing",
       "x": [
-        "2024-03"
+        "2024<br>Mar"
       ],
       "y": [
         190446.0
@@ -836,32 +1009,107 @@
     },
     {
       "customdata": [
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing",
-        "Durum wheat, o/t certified organic, o/t seed for sowing"
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing",
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing",
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing",
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing",
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing",
+        "[HS 1209.29.21] Seeds, Wheatgrass, crested, for sowing"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Wheat Complex",
+      "legendrank": 11,
+      "marker": {
+        "color": "#1565C0"
+      },
+      "name": "[HS 1209.29.21] Seeds,<br>Wheatgrass, crested, for sowing",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2025<br>Jan",
+        "2025<br>Mar",
+        "2025<br>Jul"
+      ],
+      "y": [
+        135928.0,
+        141406.0,
+        137082.0,
+        140303.0,
+        71795.0,
+        118089.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing",
+        "[HS 1001.99.21] Red spring wheat, certified organic, o/t seed for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Wheat Complex",
+      "legendrank": 10,
+      "marker": {
+        "color": "#1565C0"
+      },
+      "name": "[HS 1001.99.21] Red spring<br>wheat, certified organic, o/t seed for sowing",
+      "x": [
+        "2024<br>Feb",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        256033.0,
+        100875.0,
+        119236.0,
+        287828.0,
+        856176.0,
+        212095.0,
+        119258.0,
+        130606.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing",
+        "[HS 1001.19.90] Durum wheat, o/t certified organic, o/t seed for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Wheat Complex",
+      "legendrank": 9,
       "marker": {
         "color": "#455A64"
       },
-      "name": "Durum wheat, o/t certified organic, o/t seed for sowing",
+      "name": "[HS 1001.19.90] Durum<br>wheat, o/t certified organic, o/t seed for sowing",
       "x": [
-        "2024-01",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-11",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-09"
+        "2024<br>Jan",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Nov",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Sep"
       ],
       "y": [
         133901.0,
@@ -878,722 +1126,45 @@
     },
     {
       "customdata": [
-        "Lentil seeds, of a kind used for sowing, dried, shelled",
-        "Lentil seeds, of a kind used for sowing, dried, shelled",
-        "Lentil seeds, of a kind used for sowing, dried, shelled"
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
+        "[HS 1001.99.90] Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes"
       ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#795548"
-      },
-      "name": "Lentil seeds, of a kind used for sowing, dried, shelled",
-      "x": [
-        "2024-02",
-        "2024-04",
-        "2024-11"
-      ],
-      "y": [
-        96370.0,
-        54026.0,
-        162028.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
-        "Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
-        "Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
-        "Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#795548"
-      },
-      "name": "Lentils, o/t organic, green, incl French, dried, shelled, w/n skinned/split, nes",
-      "x": [
-        "2024-02",
-        "2024-10",
-        "2024-11",
-        "2025-09"
-      ],
-      "y": [
-        173052.0,
-        324177.0,
-        456627.0,
-        95801.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Lentils, o/t organic, nes, dried, shelled, w/n skinned/split, o/t seeds f sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#795548"
-      },
-      "name": "Lentils, o/t organic, nes, dried, shelled, w/n skinned/split, o/t seeds f sowing",
-      "x": [
-        "2025-10"
-      ],
-      "y": [
-        169303.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Lentils, o/t organic, red, dried, shelled, w/n skinned/split, nes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#795548"
-      },
-      "name": "Lentils, o/t organic, red, dried, shelled, w/n skinned/split, nes",
-      "x": [
-        "2024-07"
-      ],
-      "y": [
-        218295.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes",
-        "Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes",
-        "Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#795548"
-      },
-      "name": "Lentils,certified organic,green,incl French,dried,shelled,w/n skinned/split,nes",
-      "x": [
-        "2024-05",
-        "2024-06",
-        "2024-07"
-      ],
-      "y": [
-        813122.0,
-        218988.0,
-        415404.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Low erucic acid rape (canola) or colza oil and its fractions, crude",
-        "Low erucic acid rape (canola) or colza oil and its fractions, crude",
-        "Low erucic acid rape (canola) or colza oil and its fractions, crude"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Canola Complex",
-      "marker": {
-        "color": "#FFB300"
-      },
-      "name": "Low erucic acid rape (canola) or colza oil and its fractions, crude",
-      "x": [
-        "2024-01",
-        "2024-09",
-        "2025-02"
-      ],
-      "y": [
-        19073567.0,
-        422.0,
-        41482496.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Low erucic acid rape (canola) or colza oil and its fractions, refined",
-        "Low erucic acid rape (canola) or colza oil and its fractions, refined",
-        "Low erucic acid rape (canola) or colza oil and its fractions, refined",
-        "Low erucic acid rape (canola) or colza oil and its fractions, refined"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Canola Complex",
-      "marker": {
-        "color": "#FFD600"
-      },
-      "name": "Low erucic acid rape (canola) or colza oil and its fractions, refined",
-      "x": [
-        "2024-10",
-        "2025-02",
-        "2025-05",
-        "2025-07"
-      ],
-      "y": [
-        168588.0,
-        75387.0,
-        16365.0,
-        54493.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Oats, hulled,pearled,sliced or kibbled"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Oats, hulled,pearled,sliced or kibbled",
-      "x": [
-        "2025-03"
-      ],
-      "y": [
-        20311.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled",
-        "Pea seeds, of a kind used for sowing, dried, shelled"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Pea seeds, of a kind used for sowing, dried, shelled",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09"
-      ],
-      "y": [
-        3389937.0,
-        1489410.0,
-        2508278.0,
-        767099.0,
-        944650.0,
-        801807.0,
-        421630.0,
-        532899.0,
-        2420914.0,
-        3472599.0,
-        1850667.0,
-        3965752.0,
-        1906304.0,
-        599017.0,
-        56735.0,
-        160025.0,
-        214055.0,
-        121961.0,
-        114561.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned",
-        "Peas, green, nes, dried, shelled, w/n skinned"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#CDDC39"
-      },
-      "name": "Peas, green, nes, dried, shelled, w/n skinned",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05"
-      ],
-      "y": [
-        2137038.0,
-        2626992.0,
-        850144.0,
-        693107.0,
-        587373.0,
-        665586.0,
-        728355.0,
-        597950.0,
-        2789243.0,
-        3076942.0,
-        2224319.0,
-        2942353.0,
-        4832118.0,
-        1857757.0,
-        848212.0,
-        294509.0,
-        8836.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned",
-        "Peas, nes, dried, shelled, w/n skinned"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Peas, nes, dried, shelled, w/n skinned",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-08",
-        "2025-10"
-      ],
-      "y": [
-        228733.0,
-        2563906.0,
-        1657659.0,
-        441748.0,
-        564536.0,
-        490087.0,
-        419875.0,
-        347512.0,
-        997012.0,
-        4910335.0,
-        3429706.0,
-        2487842.0,
-        4916220.0,
-        2952008.0,
-        4177907.0,
-        98338.0,
-        56139.0,
-        43197.0,
-        402349.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas, shelled or unshelled, fresh or chilled"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Peas, shelled or unshelled, fresh or chilled",
-      "x": [
-        "2024-04"
-      ],
-      "y": [
-        199668.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes",
-        "Peas, split, dried, nes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Peas, split, dried, nes",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        944240.0,
-        1492651.0,
-        831504.0,
-        326329.0,
-        106372.0,
-        463966.0,
-        524988.0,
-        1046089.0,
-        2239088.0,
-        1505643.0,
-        7158152.0,
-        685347.0,
-        619163.0,
-        71273.0,
-        87902.0,
-        512972.0,
-        487709.0,
-        1123189.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-        "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Peas,certified organic,o/t yellow,dried,shelled,w/n skinned/split,o/t for sowing",
-      "x": [
-        "2024-01",
-        "2024-03",
-        "2024-06",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03"
-      ],
-      "y": [
-        543209.0,
-        169186.0,
-        74193.0,
-        465794.0,
-        1672494.0,
-        945234.0,
-        100079.0,
-        66063.0,
-        967759.0,
-        397571.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-        "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Pulses Complex",
-      "marker": {
-        "color": "#F9A825"
-      },
-      "name": "Peas,certified organic,yellow,dried,shelled,w/n skinned/split,o/t seeds f sowing",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-04"
-      ],
-      "y": [
-        941754.0,
-        2719469.0,
-        3052547.0,
-        1005042.0,
-        5841092.0,
-        2132878.0,
-        1180505.0,
-        213886.0,
-        1860581.0,
-        3109562.0,
-        2357130.0,
-        1754683.0,
-        757132.0,
-        618578.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Potassium sulphate, in packages weighing more than 10 kg",
-        "Potassium sulphate, in packages weighing more than 10 kg",
-        "Potassium sulphate, in packages weighing more than 10 kg",
-        "Potassium sulphate, in packages weighing more than 10 kg"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Potash",
-      "marker": {
-        "color": "#9C27B0"
-      },
-      "name": "Potassium sulphate, in packages weighing more than 10 kg",
-      "x": [
-        "2024-02",
-        "2024-09",
-        "2025-04",
-        "2025-08"
-      ],
-      "y": [
-        13661.0,
-        3050.0,
-        7413.0,
-        9322.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing",
-        "Red spring wheat, certified organic, o/t seed for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
       "legendgroup": "Wheat Complex",
+      "legendrank": 8,
       "marker": {
         "color": "#1565C0"
       },
-      "name": "Red spring wheat, certified organic, o/t seed for sowing",
+      "name": "[HS 1001.99.90] Wheat,<br>nes and meslin, o/t certified organic, o/t seed for sowing, nes",
       "x": [
-        "2024-02",
-        "2024-05",
-        "2024-06",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-09",
-        "2025-10"
-      ],
-      "y": [
-        256033.0,
-        100875.0,
-        119236.0,
-        287828.0,
-        856176.0,
-        212095.0,
-        119258.0,
-        130606.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Seeds, Wheatgrass, crested, for sowing",
-        "Seeds, Wheatgrass, crested, for sowing",
-        "Seeds, Wheatgrass, crested, for sowing",
-        "Seeds, Wheatgrass, crested, for sowing",
-        "Seeds, Wheatgrass, crested, for sowing",
-        "Seeds, Wheatgrass, crested, for sowing"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Wheat Complex",
-      "marker": {
-        "color": "#1565C0"
-      },
-      "name": "Seeds, Wheatgrass, crested, for sowing",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2025-01",
-        "2025-03",
-        "2025-07"
-      ],
-      "y": [
-        135928.0,
-        141406.0,
-        137082.0,
-        140303.0,
-        71795.0,
-        118089.0
-      ],
-      "type": "bar"
-    },
-    {
-      "customdata": [
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-        "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes"
-      ],
-      "hovertemplate": "<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
-      "legendgroup": "Wheat Complex",
-      "marker": {
-        "color": "#1565C0"
-      },
-      "name": "Wheat, nes and meslin, o/t certified organic, o/t seed for sowing, nes",
-      "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-07",
-        "2024-08",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
       ],
       "y": [
         5995484.0,
@@ -1615,37 +1186,500 @@
       "type": "bar"
     },
     {
-      "hovertemplate": "<b>%{x}</b><br>TOTAL: $%{y:,.0f}<extra></extra>",
+      "customdata": [
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+        "(Top 5) [HS 1001.99.32] Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Wheat Complex",
+      "legendrank": 7,
+      "marker": {
+        "color": "#42A5F5"
+      },
+      "name": "(Top 5) [HS 1001.99.32]<br>Red spring wheat, o/t certified organic, grade 2, o/t seed for sowing",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        35805670.0,
+        11734880.0,
+        10088887.0,
+        31484029.0,
+        13965436.0,
+        12113961.0,
+        666631.0,
+        6013380.0,
+        3111051.0,
+        5371981.0,
+        2175784.0,
+        704307.0,
+        11127359.0,
+        34149283.0,
+        21558286.0,
+        40283684.0,
+        20321330.0,
+        26768483.0,
+        10859921.0,
+        7793071.0,
+        31191536.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+        "(Top 4) [HS 1001.99.31] Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Wheat Complex",
+      "legendrank": 6,
+      "marker": {
+        "color": "#1565C0"
+      },
+      "name": "(Top 4) [HS 1001.99.31]<br>Red spring wheat, o/t certified organic, grade 1, o/t seed for sowing",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        8442758.0,
+        42733338.0,
+        36938966.0,
+        36901992.0,
+        1565204.0,
+        9882639.0,
+        24935110.0,
+        3587781.0,
+        12209213.0,
+        3181850.0,
+        1631528.0,
+        18266287.0,
+        19499906.0,
+        29933198.0,
+        16120921.0,
+        22775665.0,
+        13704833.0,
+        18510532.0,
+        8995579.0,
+        16395179.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 3104.30.00] Potassium sulphate, in packages weighing more than 10 kg",
+        "[HS 3104.30.00] Potassium sulphate, in packages weighing more than 10 kg",
+        "[HS 3104.30.00] Potassium sulphate, in packages weighing more than 10 kg",
+        "[HS 3104.30.00] Potassium sulphate, in packages weighing more than 10 kg"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Potash",
+      "legendrank": 5,
+      "marker": {
+        "color": "#9C27B0"
+      },
+      "name": "[HS 3104.30.00] Potassium<br>sulphate, in packages weighing more than 10 kg",
+      "x": [
+        "2024<br>Feb",
+        "2024<br>Sep",
+        "2025<br>Apr",
+        "2025<br>Aug"
+      ],
+      "y": [
+        13661.0,
+        3050.0,
+        7413.0,
+        9322.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg",
+        "(Top 2) [HS 3104.20.00] Potassium chloride, in packages weighing more than 10 kg"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Potash",
+      "legendrank": 4,
+      "marker": {
+        "color": "#9C27B0"
+      },
+      "name": "(Top 2) [HS 3104.20.00]<br>Potassium chloride, in packages weighing more than 10 kg",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "y": [
+        68173427.0,
+        61543295.0,
+        10837796.0,
+        37792936.0,
+        4407513.0,
+        18906065.0,
+        36200854.0,
+        43942903.0,
+        49147656.0,
+        80126053.0,
+        67932438.0,
+        26207569.0,
+        7017500.0,
+        19704753.0,
+        7391277.0,
+        22059252.0,
+        9696295.0,
+        31805746.0,
+        59476601.0,
+        116819136.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1514.19.00] Low erucic acid rape (canola) or colza oil and its fractions, refined",
+        "[HS 1514.19.00] Low erucic acid rape (canola) or colza oil and its fractions, refined",
+        "[HS 1514.19.00] Low erucic acid rape (canola) or colza oil and its fractions, refined",
+        "[HS 1514.19.00] Low erucic acid rape (canola) or colza oil and its fractions, refined"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Canola Complex",
+      "legendrank": 3,
+      "marker": {
+        "color": "#FFD600"
+      },
+      "name": "[HS 1514.19.00] Low erucic<br>acid rape (canola) or colza oil and its fractions, refined",
+      "x": [
+        "2024<br>Oct",
+        "2025<br>Feb",
+        "2025<br>May",
+        "2025<br>Jul"
+      ],
+      "y": [
+        168588.0,
+        75387.0,
+        16365.0,
+        54493.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "[HS 1514.11.00] Low erucic acid rape (canola) or colza oil and its fractions, crude",
+        "[HS 1514.11.00] Low erucic acid rape (canola) or colza oil and its fractions, crude",
+        "[HS 1514.11.00] Low erucic acid rape (canola) or colza oil and its fractions, crude"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Canola Complex",
+      "legendrank": 2,
+      "marker": {
+        "color": "#FFB300"
+      },
+      "name": "[HS 1514.11.00] Low erucic<br>acid rape (canola) or colza oil and its fractions, crude",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Sep",
+        "2025<br>Feb"
+      ],
+      "y": [
+        19073567.0,
+        422.0,
+        41482496.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+        "(Top 3) [HS 2306.41.00] Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Canola Complex",
+      "legendrank": 1,
+      "marker": {
+        "color": "#EF6C00"
+      },
+      "name": "(Top 3) [HS 2306.41.00]<br>Rape/colza seed oil-cake & o solid residue, low erucic acid, w/n ground/pellet",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug"
+      ],
+      "y": [
+        26267533.0,
+        43559156.0,
+        37670312.0,
+        28305039.0,
+        59287742.0,
+        31089580.0,
+        35546851.0,
+        52672483.0,
+        47496485.0,
+        45796388.0,
+        46981365.0,
+        41274474.0,
+        69510111.0,
+        53062533.0,
+        31843845.0,
+        22620783.0,
+        2750490.0,
+        11833341.0,
+        12551100.0,
+        346553.0
+      ],
+      "type": "bar"
+    },
+    {
+      "customdata": [
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+        "(Top 1) [HS 1205.10.20] Rape/colza seeds,low erucic acid, for oil extraction, w/n broken"
+      ],
+      "hovertemplate": "<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>",
+      "legendgroup": "Canola Complex",
+      "legendrank": 0,
+      "marker": {
+        "color": "#C62828"
+      },
+      "name": "(Top 1) [HS 1205.10.20]<br>Rape/colza seeds,low erucic acid, for oil extraction, w/n broken",
+      "x": [
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug"
+      ],
+      "y": [
+        117049999.0,
+        87640127.0,
+        168745749.0,
+        128419215.0,
+        284652918.0,
+        240815860.0,
+        163042057.0,
+        269713888.0,
+        203364121.0,
+        321198394.0,
+        156037727.0,
+        40692413.0,
+        146123260.0,
+        58180418.0,
+        145830101.0,
+        170657788.0,
+        26104377.0,
+        101050689.0,
+        73787590.0,
+        48152784.0
+      ],
+      "type": "bar"
+    },
+    {
+      "legendrank": 9999,
       "line": {
         "color": "white",
-        "dash": "solid",
         "width": 3
       },
       "mode": "lines+markers",
       "name": "TOTAL Trend",
       "x": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
       ],
       "y": [
         316507631.0,
@@ -1677,33 +1711,331 @@
   "layout": {
     "template": {
       "data": {
-        "barpolar": [
+        "histogram2dcontour": [
           {
-            "marker": {
-              "line": {
-                "color": "rgb(17,17,17)",
-                "width": 0.5
-              },
-              "pattern": {
-                "fillmode": "overlay",
-                "size": 10,
-                "solidity": 0.2
-              }
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
             },
-            "type": "barpolar"
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
           }
         ],
         "bar": [
           {
             "error_x": {
-              "color": "#f2f5fa"
+              "color": "#2a3f5f"
             },
             "error_y": {
-              "color": "#f2f5fa"
+              "color": "#2a3f5f"
             },
             "marker": {
               "line": {
-                "color": "rgb(17,17,17)",
+                "color": "#E5ECF6",
                 "width": 0.5
               },
               "pattern": {
@@ -1715,245 +2047,26 @@
             "type": "bar"
           }
         ],
-        "carpet": [
+        "scattergeo": [
           {
-            "aaxis": {
-              "endlinecolor": "#A2B1C6",
-              "gridcolor": "#506784",
-              "linecolor": "#506784",
-              "minorgridcolor": "#506784",
-              "startlinecolor": "#A2B1C6"
-            },
-            "baxis": {
-              "endlinecolor": "#A2B1C6",
-              "gridcolor": "#506784",
-              "linecolor": "#506784",
-              "minorgridcolor": "#506784",
-              "startlinecolor": "#A2B1C6"
-            },
-            "type": "carpet"
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
           }
         ],
-        "choropleth": [
+        "scatterpolar": [
           {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "type": "choropleth"
-          }
-        ],
-        "contourcarpet": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "type": "contourcarpet"
-          }
-        ],
-        "contour": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "colorscale": [
-              [
-                0.0,
-                "#0d0887"
-              ],
-              [
-                0.1111111111111111,
-                "#46039f"
-              ],
-              [
-                0.2222222222222222,
-                "#7201a8"
-              ],
-              [
-                0.3333333333333333,
-                "#9c179e"
-              ],
-              [
-                0.4444444444444444,
-                "#bd3786"
-              ],
-              [
-                0.5555555555555556,
-                "#d8576b"
-              ],
-              [
-                0.6666666666666666,
-                "#ed7953"
-              ],
-              [
-                0.7777777777777778,
-                "#fb9f3a"
-              ],
-              [
-                0.8888888888888888,
-                "#fdca26"
-              ],
-              [
-                1.0,
-                "#f0f921"
-              ]
-            ],
-            "type": "contour"
-          }
-        ],
-        "heatmap": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "colorscale": [
-              [
-                0.0,
-                "#0d0887"
-              ],
-              [
-                0.1111111111111111,
-                "#46039f"
-              ],
-              [
-                0.2222222222222222,
-                "#7201a8"
-              ],
-              [
-                0.3333333333333333,
-                "#9c179e"
-              ],
-              [
-                0.4444444444444444,
-                "#bd3786"
-              ],
-              [
-                0.5555555555555556,
-                "#d8576b"
-              ],
-              [
-                0.6666666666666666,
-                "#ed7953"
-              ],
-              [
-                0.7777777777777778,
-                "#fb9f3a"
-              ],
-              [
-                0.8888888888888888,
-                "#fdca26"
-              ],
-              [
-                1.0,
-                "#f0f921"
-              ]
-            ],
-            "type": "heatmap"
-          }
-        ],
-        "histogram2dcontour": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "colorscale": [
-              [
-                0.0,
-                "#0d0887"
-              ],
-              [
-                0.1111111111111111,
-                "#46039f"
-              ],
-              [
-                0.2222222222222222,
-                "#7201a8"
-              ],
-              [
-                0.3333333333333333,
-                "#9c179e"
-              ],
-              [
-                0.4444444444444444,
-                "#bd3786"
-              ],
-              [
-                0.5555555555555556,
-                "#d8576b"
-              ],
-              [
-                0.6666666666666666,
-                "#ed7953"
-              ],
-              [
-                0.7777777777777778,
-                "#fb9f3a"
-              ],
-              [
-                0.8888888888888888,
-                "#fdca26"
-              ],
-              [
-                1.0,
-                "#f0f921"
-              ]
-            ],
-            "type": "histogram2dcontour"
-          }
-        ],
-        "histogram2d": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "colorscale": [
-              [
-                0.0,
-                "#0d0887"
-              ],
-              [
-                0.1111111111111111,
-                "#46039f"
-              ],
-              [
-                0.2222222222222222,
-                "#7201a8"
-              ],
-              [
-                0.3333333333333333,
-                "#9c179e"
-              ],
-              [
-                0.4444444444444444,
-                "#bd3786"
-              ],
-              [
-                0.5555555555555556,
-                "#d8576b"
-              ],
-              [
-                0.6666666666666666,
-                "#ed7953"
-              ],
-              [
-                0.7777777777777778,
-                "#fb9f3a"
-              ],
-              [
-                0.8888888888888888,
-                "#fdca26"
-              ],
-              [
-                1.0,
-                "#f0f921"
-              ]
-            ],
-            "type": "histogram2d"
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
           }
         ],
         "histogram": [
@@ -1968,24 +2081,132 @@
             "type": "histogram"
           }
         ],
-        "mesh3d": [
+        "scattergl": [
           {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "type": "mesh3d"
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
           }
         ],
-        "parcoords": [
+        "scatter3d": [
           {
+            "type": "scatter3d",
             "line": {
               "colorbar": {
                 "outlinewidth": 0,
                 "ticks": ""
               }
             },
-            "type": "parcoords"
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermap": [
+          {
+            "type": "scattermap",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
           }
         ],
         "pie": [
@@ -1993,201 +2214,62 @@
             "automargin": true,
             "type": "pie"
           }
-        ],
-        "scatter3d": [
-          {
-            "line": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scatter3d"
-          }
-        ],
-        "scattercarpet": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scattercarpet"
-          }
-        ],
-        "scattergeo": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scattergeo"
-          }
-        ],
-        "scattergl": [
-          {
-            "marker": {
-              "line": {
-                "color": "#283442"
-              }
-            },
-            "type": "scattergl"
-          }
-        ],
-        "scattermapbox": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scattermapbox"
-          }
-        ],
-        "scattermap": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scattermap"
-          }
-        ],
-        "scatterpolargl": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scatterpolargl"
-          }
-        ],
-        "scatterpolar": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scatterpolar"
-          }
-        ],
-        "scatter": [
-          {
-            "marker": {
-              "line": {
-                "color": "#283442"
-              }
-            },
-            "type": "scatter"
-          }
-        ],
-        "scatterternary": [
-          {
-            "marker": {
-              "colorbar": {
-                "outlinewidth": 0,
-                "ticks": ""
-              }
-            },
-            "type": "scatterternary"
-          }
-        ],
-        "surface": [
-          {
-            "colorbar": {
-              "outlinewidth": 0,
-              "ticks": ""
-            },
-            "colorscale": [
-              [
-                0.0,
-                "#0d0887"
-              ],
-              [
-                0.1111111111111111,
-                "#46039f"
-              ],
-              [
-                0.2222222222222222,
-                "#7201a8"
-              ],
-              [
-                0.3333333333333333,
-                "#9c179e"
-              ],
-              [
-                0.4444444444444444,
-                "#bd3786"
-              ],
-              [
-                0.5555555555555556,
-                "#d8576b"
-              ],
-              [
-                0.6666666666666666,
-                "#ed7953"
-              ],
-              [
-                0.7777777777777778,
-                "#fb9f3a"
-              ],
-              [
-                0.8888888888888888,
-                "#fdca26"
-              ],
-              [
-                1.0,
-                "#f0f921"
-              ]
-            ],
-            "type": "surface"
-          }
-        ],
-        "table": [
-          {
-            "cells": {
-              "fill": {
-                "color": "#506784"
-              },
-              "line": {
-                "color": "rgb(17,17,17)"
-              }
-            },
-            "header": {
-              "fill": {
-                "color": "#2a3f5f"
-              },
-              "line": {
-                "color": "rgb(17,17,17)"
-              }
-            },
-            "type": "table"
-          }
         ]
       },
       "layout": {
-        "annotationdefaults": {
-          "arrowcolor": "#f2f5fa",
-          "arrowhead": 0,
-          "arrowwidth": 1
-        },
         "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
         "coloraxis": {
           "colorbar": {
             "outlinewidth": 0,
@@ -2195,52 +2277,6 @@
           }
         },
         "colorscale": {
-          "diverging": [
-            [
-              0,
-              "#8e0152"
-            ],
-            [
-              0.1,
-              "#c51b7d"
-            ],
-            [
-              0.2,
-              "#de77ae"
-            ],
-            [
-              0.3,
-              "#f1b6da"
-            ],
-            [
-              0.4,
-              "#fde0ef"
-            ],
-            [
-              0.5,
-              "#f7f7f7"
-            ],
-            [
-              0.6,
-              "#e6f5d0"
-            ],
-            [
-              0.7,
-              "#b8e186"
-            ],
-            [
-              0.8,
-              "#7fbc41"
-            ],
-            [
-              0.9,
-              "#4d9221"
-            ],
-            [
-              1,
-              "#276419"
-            ]
-          ],
           "sequential": [
             [
               0.0,
@@ -2324,194 +2360,215 @@
               1.0,
               "#f0f921"
             ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
           ]
         },
-        "colorway": [
-          "#636efa",
-          "#EF553B",
-          "#00cc96",
-          "#ab63fa",
-          "#FFA15A",
-          "#19d3f3",
-          "#FF6692",
-          "#B6E880",
-          "#FF97FF",
-          "#FECB52"
-        ],
-        "font": {
-          "color": "#f2f5fa"
-        },
-        "geo": {
-          "bgcolor": "rgb(17,17,17)",
-          "lakecolor": "rgb(17,17,17)",
-          "landcolor": "rgb(17,17,17)",
-          "showlakes": true,
-          "showland": true,
-          "subunitcolor": "#506784"
-        },
-        "hoverlabel": {
-          "align": "left"
-        },
-        "hovermode": "closest",
-        "mapbox": {
-          "style": "dark"
-        },
-        "paper_bgcolor": "rgb(17,17,17)",
-        "plot_bgcolor": "rgb(17,17,17)",
-        "polar": {
-          "angularaxis": {
-            "gridcolor": "#506784",
-            "linecolor": "#506784",
-            "ticks": ""
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
           },
-          "bgcolor": "rgb(17,17,17)",
-          "radialaxis": {
-            "gridcolor": "#506784",
-            "linecolor": "#506784",
-            "ticks": ""
-          }
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
         },
         "scene": {
           "xaxis": {
-            "backgroundcolor": "rgb(17,17,17)",
-            "gridcolor": "#506784",
-            "gridwidth": 2,
-            "linecolor": "#506784",
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
             "showbackground": true,
             "ticks": "",
-            "zerolinecolor": "#C8D4E3"
+            "zerolinecolor": "white",
+            "gridwidth": 2
           },
           "yaxis": {
-            "backgroundcolor": "rgb(17,17,17)",
-            "gridcolor": "#506784",
-            "gridwidth": 2,
-            "linecolor": "#506784",
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
             "showbackground": true,
             "ticks": "",
-            "zerolinecolor": "#C8D4E3"
+            "zerolinecolor": "white",
+            "gridwidth": 2
           },
           "zaxis": {
-            "backgroundcolor": "rgb(17,17,17)",
-            "gridcolor": "#506784",
-            "gridwidth": 2,
-            "linecolor": "#506784",
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
             "showbackground": true,
             "ticks": "",
-            "zerolinecolor": "#C8D4E3"
+            "zerolinecolor": "white",
+            "gridwidth": 2
           }
         },
         "shapedefaults": {
           "line": {
-            "color": "#f2f5fa"
+            "color": "#2a3f5f"
           }
         },
-        "sliderdefaults": {
-          "bgcolor": "#C8D4E3",
-          "bordercolor": "rgb(17,17,17)",
-          "borderwidth": 1,
-          "tickwidth": 0
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
         },
-        "ternary": {
-          "aaxis": {
-            "gridcolor": "#506784",
-            "linecolor": "#506784",
-            "ticks": ""
-          },
-          "baxis": {
-            "gridcolor": "#506784",
-            "linecolor": "#506784",
-            "ticks": ""
-          },
-          "bgcolor": "rgb(17,17,17)",
-          "caxis": {
-            "gridcolor": "#506784",
-            "linecolor": "#506784",
-            "ticks": ""
-          }
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
         },
         "title": {
           "x": 0.05
         },
-        "updatemenudefaults": {
-          "bgcolor": "#506784",
-          "borderwidth": 0
-        },
-        "xaxis": {
-          "automargin": true,
-          "gridcolor": "#283442",
-          "linecolor": "#506784",
-          "ticks": "",
-          "title": {
-            "standoff": 15
-          },
-          "zerolinecolor": "#283442",
-          "zerolinewidth": 2
-        },
-        "yaxis": {
-          "automargin": true,
-          "gridcolor": "#283442",
-          "linecolor": "#506784",
-          "ticks": "",
-          "title": {
-            "standoff": 15
-          },
-          "zerolinecolor": "#283442",
-          "zerolinewidth": 2
+        "mapbox": {
+          "style": "light"
         }
       }
     },
+    "font": {
+      "color": "white",
+      "size": 12
+    },
     "legend": {
+      "font": {
+        "size": 13,
+        "color": "white"
+      },
+      "traceorder": "grouped",
+      "tracegroupgap": 40,
       "x": 1.02,
       "y": 1,
       "xanchor": "left",
-      "yanchor": "top"
+      "valign": "top",
+      "bgcolor": "rgba(0,0,0,0)"
     },
     "margin": {
-      "t": 120,
-      "l": 40,
-      "r": 40,
-      "b": 40
-    },
-    "title": {
-      "text": "Saskatchewan Ag Export Composition (Monthly)",
-      "y": 0.95,
-      "x": 0.5
+      "t": 100,
+      "l": 60,
+      "r": 350,
+      "b": 150
     },
     "xaxis": {
-      "automargin": true,
+      "tickfont": {
+        "color": "white"
+      },
+      "rangeslider": {
+        "visible": true,
+        "thickness": 0.06
+      },
       "type": "category",
       "categoryorder": "array",
       "categoryarray": [
-        "2024-01",
-        "2024-02",
-        "2024-03",
-        "2024-04",
-        "2024-05",
-        "2024-06",
-        "2024-07",
-        "2024-08",
-        "2024-09",
-        "2024-10",
-        "2024-11",
-        "2024-12",
-        "2025-01",
-        "2025-02",
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-06",
-        "2025-07",
-        "2025-08",
-        "2025-09",
-        "2025-10"
-      ]
+        "2024<br>Jan",
+        "2024<br>Feb",
+        "2024<br>Mar",
+        "2024<br>Apr",
+        "2024<br>May",
+        "2024<br>Jun",
+        "2024<br>Jul",
+        "2024<br>Aug",
+        "2024<br>Sep",
+        "2024<br>Oct",
+        "2024<br>Nov",
+        "2024<br>Dec",
+        "2025<br>Jan",
+        "2025<br>Feb",
+        "2025<br>Mar",
+        "2025<br>Apr",
+        "2025<br>May",
+        "2025<br>Jun",
+        "2025<br>Jul",
+        "2025<br>Aug",
+        "2025<br>Sep",
+        "2025<br>Oct"
+      ],
+      "tickangle": 0,
+      "range": [
+        9.5,
+        21.5
+      ],
+      "gridcolor": "rgba(255,255,255,0.1)"
     },
     "yaxis": {
-      "automargin": true
+      "title": {
+        "font": {
+          "color": "white"
+        },
+        "text": "Export Value ($)"
+      },
+      "tickfont": {
+        "color": "white"
+      },
+      "tickformat": "$s",
+      "gridcolor": "rgba(255,255,255,0.1)"
     },
+    "height": 800,
+    "barmode": "stack",
+    "paper_bgcolor": "rgba(0,0,0,0)",
+    "plot_bgcolor": "rgba(0,0,0,0)",
     "updatemenus": [
       {
-        "bgcolor": "rgba(0,0,0,0)",
+        "bgcolor": "white",
         "buttons": [
           {
             "args": [
@@ -2556,7 +2613,7 @@
                 ]
               }
             ],
-            "label": "Overview (Stacked)",
+            "label": "Overview",
             "method": "update"
           },
           {
@@ -2569,12 +2626,46 @@
                   false,
                   false,
                   false,
-                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   true,
                   true,
                   true,
+                  true,
+                  true
+                ]
+              }
+            ],
+            "label": "Canola Complex",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
                   false,
                   false,
                   false,
@@ -2585,6 +2676,110 @@
                   false,
                   false,
                   false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              }
+            ],
+            "label": "Potash",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              }
+            ],
+            "label": "Wheat Complex",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
                   false,
                   false,
                   false,
@@ -2609,119 +2804,6 @@
             "args": [
               {
                 "visible": [
-                  true,
-                  false,
-                  false,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true
-                ]
-              }
-            ],
-            "label": "Canola Complex",
-            "method": "update"
-          },
-          {
-            "args": [
-              {
-                "visible": [
-                  false,
-                  false,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true,
-                  false,
-                  false,
-                  false,
-                  true
-                ]
-              }
-            ],
-            "label": "Potash",
-            "method": "update"
-          },
-          {
-            "args": [
-              {
-                "visible": [
-                  false,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true,
-                  true,
-                  false,
-                  false,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
                   false,
                   false,
                   true,
@@ -2732,39 +2814,14 @@
                   true,
                   true,
                   true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true
-                ]
-              }
-            ],
-            "label": "Pulses Complex",
-            "method": "update"
-          },
-          {
-            "args": [
-              {
-                "visible": [
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
                   true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   false,
                   false,
                   false,
@@ -2786,7 +2843,7 @@
                 ]
               }
             ],
-            "label": "Soya Beans",
+            "label": "Pulses Complex",
             "method": "update"
           },
           {
@@ -2794,10 +2851,6 @@
               {
                 "visible": [
                   false,
-                  false,
-                  false,
-                  false,
-                  true,
                   true,
                   false,
                   false,
@@ -2805,48 +2858,6 @@
                   false,
                   false,
                   false,
-                  false,
-                  false,
-                  true,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true,
-                  true,
-                  true,
-                  true
-                ]
-              }
-            ],
-            "label": "Wheat Complex",
-            "method": "update"
-          },
-          {
-            "args": [
-              {
-                "visible": [
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  true,
                   false,
                   false,
                   false,
@@ -2880,21 +2891,61 @@
             ],
             "label": "Wood Pulp",
             "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              }
+            ],
+            "label": "Soya Beans",
+            "method": "update"
           }
         ],
-        "direction": "down",
         "font": {
-          "color": "white"
+          "color": "black"
         },
         "showactive": true,
         "x": 0,
-        "xanchor": "left",
-        "y": 1.15,
-        "yanchor": "top"
+        "y": 1.12
       }
-    ],
-    "paper_bgcolor": "rgba(0,0,0,0)",
-    "plot_bgcolor": "rgba(0,0,0,0)",
-    "barmode": "stack"
+    ]
   }
 }

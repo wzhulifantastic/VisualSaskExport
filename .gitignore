@@ -11,3 +11,8 @@ wheels/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+.history/
+
+tests/
+docs/

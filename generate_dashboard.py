@@ -12,7 +12,7 @@ Key Features:
 5. Generates an interactive stacked bar chart with filtering capabilities
 
 Author: Automated Export Analysis System
-Date: 2026-01-23
+Date: 2026-01-25
 """
 
 import pandas as pd
@@ -100,8 +100,8 @@ def load_and_clean_data(file_path: str) -> pd.DataFrame:
     
     # Split Commodity into HS_Code and Name
     split = df['Commodity'].astype(str).str.split(' - ', n=1, expand=True)
-    df['HS_Code'] = split[0]
-    df['Name'] = split[1]
+    df['HS_Code'] = split[0].str.strip()
+    df['Name'] = split[1].str.strip()
     
     # Filter for Saskatchewan province only
     prov = df['Province'].fillna('').astype(str).str.strip().str.casefold()
@@ -161,51 +161,95 @@ def apply_classifications(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def apply_ranking_labels(df: pd.DataFrame) -> pd.DataFrame:
+def apply_naming_conventions(df: pd.DataFrame) -> Tuple[pd.DataFrame, Dict, Dict]:
     """
-    Rank top 10 products by total value and apply ranking labels.
+    Apply HS Code naming conventions to ALL products.
+    Top 10 items get (Top X) prefix.
+    
+    Format:
+      Top 10: "(Top X) [HS 1234] Name"
+      Others: "[HS 1234] Name"
     
     Args:
         df: DataFrame with classification applied
         
     Returns:
-        DataFrame with ranked product names
+        Tuple of (DataFrame with ranked product names, updated color map, name mapping)
     """
-    print("Applying Top 10 ranking labels...")
+    print("Applying global HS Code naming conventions...")
     
-    # Calculate total value per product
+    # Create Name -> HS_Code mapping
+    # Note: Assuming 'Commodity_Name' is unique per product
+    name_hs_map = df.drop_duplicates('Commodity_Name').set_index('Commodity_Name')['HS_Code'].to_dict()
+    
+    # Calculate total value per product for ranking
     product_totals = df.groupby('Commodity_Name')['Value ($)'].sum().reset_index()
     product_totals = product_totals.sort_values('Value ($)', ascending=False)
     
     # Get top 10 products
     top_10_products = product_totals.head(10)['Commodity_Name'].tolist()
     
-    print(f"Top 10 products by total value:")
-    for i, product in enumerate(top_10_products, 1):
-        print(f"  #{i}: {product}")
-    
-    # Create a mapping of original name to ranked name
+    # Create a mapping of original name to new formatted name
     name_mapping = {}
-    for i, original_name in enumerate(top_10_products, 1):
-        ranked_name = f"(Top {i}) {original_name}"
-        name_mapping[original_name] = ranked_name
     
-    # Apply ranking labels
+    # Get all unique products
+    all_products = df['Commodity_Name'].unique()
+    
+    for product in all_products:
+        hs_code = name_hs_map.get(product, 'N/A')
+        
+        if product in top_10_products:
+            rank = top_10_products.index(product) + 1
+            new_name = f"(Top {rank}) [HS {hs_code}] {product}"
+        else:
+            new_name = f"[HS {hs_code}] {product}"
+            
+        name_mapping[product] = new_name
+
+    # Apply naming to DataFrame
     df['Commodity_Name_Ranked'] = df['Commodity_Name'].apply(
         lambda x: name_mapping.get(x, x)
     )
     
-    # Update color map with ranked names
+    # Update color map with ranked names to ensure exact matches work
     updated_color_map = {}
     for key, color in COLOR_MAP.items():
-        # Check if this key is in the top 10
+        # key is the original name. If it has been mapped, use the new name as key.
         if key in name_mapping:
             updated_color_map[name_mapping[key]] = color
         else:
             updated_color_map[key] = color
-    
-    # Return both the updated dataframe and color map
+            
     return df, updated_color_map, name_mapping
+
+
+def generate_sorted_commodities_list(df: pd.DataFrame) -> List[str]:
+    """
+    Generate a sorted list of commodities by Double Descending logic:
+    1. Broad Category Total Value (Descending)
+    2. Product Total Value within Category (Descending)
+    
+    This results in the Highest Value items (e.g., Canola) being at the START of the list.
+    
+    Args:
+        df: DataFrame with 'Commodity_Name_Ranked', 'Broad_Category', 'Value ($)'
+        
+    Returns:
+        List of sorted commodity names (Highest Value First)
+    """
+    print("Generating hierarchical sorted commodities list (Double Descending)...")
+    
+    # 1. Calculate broad category totals and sort in DESCENDING order
+    broad_totals = df.groupby('Broad_Category')['Value ($)'].sum().sort_values(ascending=False).index.tolist()
+    
+    sorted_commodities = []
+    for broad in broad_totals:
+        # 2. Within each broad category, sort products by value in DESCENDING order
+        sub_df = df[df['Broad_Category'] == broad]
+        prod_sorted = sub_df.groupby('Commodity_Name_Ranked')['Value ($)'].sum().sort_values(ascending=False).index.tolist()
+        sorted_commodities.extend(prod_sorted)
+    
+    return sorted_commodities
 
 
 def get_color_for_commodity(name: str, color_map: Dict, name_mapping: Dict) -> str:
@@ -224,12 +268,15 @@ def get_color_for_commodity(name: str, color_map: Dict, name_mapping: Dict) -> s
     if name in color_map:
         return color_map[name]
     
-    # Remove ranking prefix for matching
+    # Remove ranking prefix and HS code for matching
     clean_name = name
     for i in range(1, 11):
-        prefix = f"(Top {i}) "
+        prefix = f"(Top {i}) [HS "
         if name.startswith(prefix):
-            clean_name = name[len(prefix):]
+            # Find the end of HS code
+            end_hs = name.find('] ', len(prefix))
+            if end_hs != -1:
+                clean_name = name[end_hs + 2:]
             break
     
     # Check if clean name is in color map
@@ -301,147 +348,147 @@ def get_color_for_commodity(name: str, color_map: Dict, name_mapping: Dict) -> s
 # VISUALIZATION FUNCTIONS
 # ============================================================================
 
-def generate_plot(df: pd.DataFrame, color_map: Dict, name_mapping: Dict) -> go.Figure:
+def generate_plot(df: pd.DataFrame, color_map: Dict, name_mapping: Dict, sorted_commodities: List[str]) -> go.Figure:
     """
-    Generate the interactive Plotly visualization.
+    Generate an interactive stacked bar chart.
+    
+    Visual Logic:
+    1. Dark Mode Compatible: Force white text and transparent background.
+    2. Strict Hierarchy: Ensures the highest value items are visually at the top
+       of both the stack and the legend.
     
     Args:
-        df: Processed DataFrame with rankings applied
-        color_map: Updated color mapping with ranked names
-        name_mapping: Mapping from original to ranked names
+        df: DataFrame containing export data
+        color_map: Dictionary mapping product names to hex colors
+        name_mapping: Dictionary mapping original names to display names
+        sorted_commodities: List of products sorted by value (Highest -> Lowest)
         
     Returns:
         Plotly Figure object
     """
     print("Generating interactive visualization...")
     
-    # Ensure Period is datetime
-    if not np.issubdtype(df["Period"].dtype, np.datetime64):
-        df["Period"] = pd.to_datetime(df["Period"])
+    # Data Preparation
+    # Format dates as "YYYY<br>Mon" for vertical stacking (e.g., 2025<br>Oct)
+    df["Period_str"] = df["Period"].dt.strftime('%Y<br>%b')
+    months = df.sort_values("Period")["Period_str"].unique().tolist()
     
-    # Group data for visualization
-    df_grouped = df.groupby(
-        ["Period", "Commodity_Name_Ranked", "Broad_Category"], 
-        as_index=False
-    )["Value ($)"].sum()
+    # Group data for plotting
+    df_grouped = df.groupby(["Period", "Commodity_Name_Ranked", "Broad_Category", "Period_str"], as_index=False)["Value ($)"].sum()
+    df_total = df.groupby(["Period", "Period_str"], as_index=False)["Value ($)"].sum()
+
+    # Calculate category ranking for dropdown menu (Highest Value -> Lowest Value)
+    category_rank = df.groupby("Broad_Category")["Value ($)"].sum().sort_values(ascending=False).index.tolist()
     
-    df_total = df.groupby("Period", as_index=False)["Value ($)"].sum()
-    
-    # Create period strings for x-axis
-    df_grouped["Period_str"] = df_grouped["Period"].dt.strftime('%Y-%m')
-    df_total["Period_str"] = df_total["Period"].dt.strftime('%Y-%m')
-    months = df_total.sort_values("Period")["Period_str"].tolist()
-    
-    # Create figure
     fig = go.Figure()
-    
-    # Add bars for each commodity
-    commodities_order = sorted(df_grouped["Commodity_Name_Ranked"].unique())
-    
-    for cname in commodities_order:
+
+    def smart_wrap(text: str, max_chars: int = 20) -> str:
+        """
+        Insert a line break (<br>) at the first space after max_chars.
+        Avoids cutting words in the middle.
+        """
+        if len(text) <= max_chars:
+            return text
+        split_idx = text.find(' ', max_chars)
+        if split_idx == -1:
+            return text
+        return text[:split_idx] + "<br>" + text[split_idx+1:]
+
+    # Core Plotting Loop:
+    # We iterate through 'sorted_commodities' in REVERSE (Smallest -> Largest).
+    # Why? Plotly builds stacked bars from bottom to top.
+    # By adding the smallest items first, the largest item (last added) appears
+    # physically at the TOP of the stack, matching our visual hierarchy goal.
+    for cname in reversed(sorted_commodities):
+        if cname not in df_grouped["Commodity_Name_Ranked"].values:
+            continue
+        
         sub = df_grouped[df_grouped["Commodity_Name_Ranked"] == cname].sort_values("Period")
-        x_list = sub["Period_str"].tolist()
-        y_list = [float(v) if v is not None else None for v in sub["Value ($)"].tolist()]
-        broad = sub["Broad_Category"].iloc[0]
+        display_name = smart_wrap(cname, max_chars=20)
         
-        # Get color for this commodity
-        color = get_color_for_commodity(cname, color_map, name_mapping)
-        
-        fig.add_trace(
-            go.Bar(
-                x=x_list,
-                y=y_list,
-                name=cname,
-                marker=dict(color=color),
-                legendgroup=broad,
-                customdata=[cname] * len(x_list),
-                hovertemplate="<b>%{x}</b><br>Commodity: %{customdata}<br>Value: $%{y:,.0f}<extra></extra>"
-            )
-        )
-    
-    # Add total trend line
+        # Calculate explicit rank for Legend sorting
+        # sorted_commodities[0] is Highest Value -> Index 0 -> Smallest Rank Number
+        # Plotly 'legendrank' sorts ascending (Low rank = Top of legend)
+        rank_val = sorted_commodities.index(cname)
+
+        fig.add_trace(go.Bar(
+            x=sub["Period_str"],
+            y=sub["Value ($)"],
+            name=display_name,
+            marker=dict(color=get_color_for_commodity(cname, color_map, name_mapping)),
+            legendgroup=sub["Broad_Category"].iloc[0],
+            legendrank=rank_val,  # Force legend order to match Value Rank
+            customdata=[cname] * len(sub),
+            hovertemplate="<b>%{x}</b><br>%{customdata}<br>Value: $%{y:,.0f}<extra></extra>"
+        ))
+
+    # Add Total Trend Line (White)
     sub_total = df_total.sort_values("Period")
-    x_total = sub_total["Period_str"].tolist()
-    y_total = [float(v) if v is not None else None for v in sub_total["Value ($)"].tolist()]
-    
-    fig.add_trace(
-        go.Scatter(
-            x=x_total,
-            y=y_total,
-            name="TOTAL Trend",
-            mode="lines+markers",
-            line=dict(color="white", width=3, dash="solid"),
-            hovertemplate="<b>%{x}</b><br>TOTAL: $%{y:,.0f}<extra></extra>"
-        )
-    )
-    
-    # Build dropdown menus for broad category filtering
-    names = [trace.name for trace in fig.data]
-    name_to_broad = (
-        df_grouped.groupby("Commodity_Name_Ranked")["Broad_Category"].first().to_dict()
-    )
-    broad_categories = sorted(list(df_grouped["Broad_Category"].unique()))
-    
-    buttons = []
-    visible_overview = [True] * len(names)
-    buttons.append(
-        dict(
-            label="Overview (Stacked)",
-            method="update",
-            args=[{"visible": visible_overview}],
-        )
-    )
-    
-    for broad in broad_categories:
-        visible = []
-        for nm in names:
-            if nm == "TOTAL Trend" or name_to_broad.get(nm) == broad:
-                visible.append(True)
-            else:
-                visible.append(False)
-        buttons.append(
-            dict(
-                label=broad,
-                method="update",
-                args=[{"visible": visible}],
-            )
-        )
-    
-    # Update layout
+    fig.add_trace(go.Scatter(
+        x=sub_total["Period_str"], y=sub_total["Value ($)"],
+        name="TOTAL Trend", mode="lines+markers",
+        legendrank=9999,  # Force trend line to the very bottom of legend
+        line=dict(color="white", width=3)
+    ))
+
+    # Layout Configuration
     fig.update_layout(
-        updatemenus=[
-            dict(
-                buttons=buttons,
-                direction="down",
-                showactive=True,
-                x=0,
-                xanchor="left",
-                y=1.15,
-                yanchor="top",
-                bgcolor="rgba(0,0,0,0)",
-                font=dict(color="white")
-            )
-        ],
+        height=800,
+        barmode="stack",
+        
+        # Transparent background
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        
+        # Global font settings (White for Dark Mode compatibility)
+        font=dict(color="white", size=12),
+        
         legend=dict(
-            x=1.02,
-            y=1,
-            xanchor="left",
-            yanchor="top",
+            # Using 'grouped' mode because explicit 'legendrank' controls the order
+            traceorder="grouped",
+            tracegroupgap=40,
+            font=dict(size=13, color="white"),
+            x=1.02, y=1,
+            xanchor="left", valign="top",
+            bgcolor="rgba(0,0,0,0)"
         ),
-        margin=dict(t=120, l=40, r=40, b=40),
-        title="Saskatchewan Ag Export Composition (Monthly)",
-        title_y=0.95,
-        title_x=0.5,
-        xaxis=dict(automargin=True),
-        yaxis=dict(automargin=True),
-        template="plotly_dark",
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
-        barmode="stack"
+        
+        # Margin adjustment to fit legend
+        margin=dict(t=100, l=60, r=350, b=150),
+        
+        xaxis=dict(
+            type='category',
+            categoryorder='array',
+            categoryarray=months,
+            tickangle=0,
+            tickfont=dict(color="white"),
+            rangeslider=dict(visible=True, thickness=0.06),
+            # Default Zoom: Show approximately the last 10 months
+            range=[len(months) - 10.5, len(months) - 0.5] if len(months) > 10 else None,
+            gridcolor="rgba(255,255,255,0.1)"
+        ),
+        
+        yaxis=dict(
+            title=dict(text="Export Value ($)", font=dict(color="white")),
+            tickfont=dict(color="white"),
+            tickformat="$s",  # SI Units (e.g., $1.5M)
+            gridcolor="rgba(255,255,255,0.1)"
+        ),
+        
+        # Dropdown Menu Configuration
+        updatemenus=[dict(
+            bgcolor="white",  # Ensure visibility against dark backgrounds
+            buttons=[
+                dict(label="Overview", method="update", args=[{"visible": [True]*len(fig.data)}])
+            ] + [
+                dict(label=broad, method="update", args=[{"visible": [t.legendgroup==broad or t.name=="TOTAL Trend" for t in fig.data]}])
+                for broad in category_rank 
+            ],
+            font=dict(color="black"),
+            x=0, y=1.12, showactive=True
+        )]
     )
-    
-    fig.update_xaxes(type='category', categoryorder='array', categoryarray=months)
-    
+
     return fig
 
 
@@ -490,30 +537,16 @@ def main():
     print("=" * 60)
     
     try:
-        # Step 1: Load and clean data
+        # Load and process data
         df = load_and_clean_data(CSV_FILE_PATH)
-        
-        # Step 2: Apply keyword classifications
         df = apply_classifications(df)
+        df, updated_color_map, name_mapping = apply_naming_conventions(df)
+        sorted_commodities = generate_sorted_commodities_list(df)
         
-        # Step 3: Apply Top 10 ranking labels
-        df, updated_color_map, name_mapping = apply_ranking_labels(df)
+        # Generate visualization
+        fig = generate_plot(df, updated_color_map, name_mapping, sorted_commodities)
         
-        # Step 4: Verify Canola Complex products
-        canola_products = df[df['Broad_Category'] == 'Canola Complex']['Commodity_Name'].unique()
-        print(f"\nCanola Complex products: {len(canola_products)}")
-        for product in canola_products:
-            print(f"  - {product}")
-        
-        if len(canola_products) == 4:
-            print("✓ Canola Complex contains all 4 products (including oils)")
-        else:
-            print(f"⚠ Warning: Canola Complex has {len(canola_products)} products")
-        
-        # Step 5: Generate visualization
-        fig = generate_plot(df, updated_color_map, name_mapping)
-        
-        # Step 6: Save to JSON
+        # Save output
         save_plot_to_json(fig, "export_data.json")
         
         print("\n" + "=" * 60)
