@@ -372,6 +372,20 @@ def generate_plot(df: pd.DataFrame, color_map: Dict, name_mapping: Dict, sorted_
     # Format dates as "YYYY<br>Mon" for vertical stacking (e.g., 2025<br>Oct)
     df["Period_str"] = df["Period"].dt.strftime('%Y<br>%b')
     months = df.sort_values("Period")["Period_str"].unique().tolist()
+
+    # Event Data Configuration
+    EVENTS = [
+        {"date": "2024<br>Jan", "label": "Baseline", "color": "#2ECC71", "style": "solid", "text": "Original Tax:<br>18.8% (MFN+VAT)"},
+        {"date": "2025<br>Mar", "label": "Escalation", "color": "#F39C12", "style": "dash", "text": "Retaliation:<br>100% Canola Oil&Meal Duty"},
+        {"date": "2025<br>Aug", "label": "Crisis", "color": "#E74C3C", "style": "dash", "text": "Market Closure:<br>Anti-dumping Deposit"},
+        {"date": "2026<br>Mar", "label": "Opportunity", "color": "#3498DB", "style": "solid", "text": "Trade Reset:<br>~15% Rate(Lower!)"}
+    ]
+
+    # Handle "Future Date": Manually append 2026<br>Mar if missing
+    # This ensures the line appears immediately after the last data point
+    for event in EVENTS:
+        if event["date"] not in months:
+            months.append(event["date"])
     
     # Group data for plotting
     df_grouped = df.groupby(["Period", "Commodity_Name_Ranked", "Broad_Category", "Period_str"], as_index=False)["Value ($)"].sum()
@@ -430,6 +444,29 @@ def generate_plot(df: pd.DataFrame, color_map: Dict, name_mapping: Dict, sorted_
         legendrank=9999,  # Force trend line to the very bottom of legend
         line=dict(color="white", width=3)
     ))
+
+    # Add Vertical Event Lines and Annotations
+    for event in EVENTS:
+        fig.add_vline(
+            x=event["date"],
+            line_width=2,
+            line_dash=event["style"],
+            line_color=event["color"],
+            opacity=0.8
+        )
+        fig.add_annotation(
+            x=event["date"],
+            y=1.05,
+            yref="paper",
+            text=f"<b>{event['label']}</b><br><span style='font-size:10px'>{event['text']}</span>",
+            showarrow=False,
+            font=dict(size=12, color=event["color"]),
+            xanchor="left",
+            align="left",
+            bgcolor="rgba(0,0,0,0.5)",
+            bordercolor=event["color"],
+            borderwidth=1
+        )
 
     # Layout Configuration
     fig.update_layout(

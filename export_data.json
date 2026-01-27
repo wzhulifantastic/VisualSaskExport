@@ -2485,6 +2485,134 @@
         }
       }
     },
+    "shapes": [
+      {
+        "line": {
+          "color": "#2ECC71",
+          "dash": "solid",
+          "width": 2
+        },
+        "opacity": 0.8,
+        "type": "line",
+        "x0": "2024<br>Jan",
+        "x1": "2024<br>Jan",
+        "xref": "x",
+        "y0": 0,
+        "y1": 1,
+        "yref": "y domain"
+      },
+      {
+        "line": {
+          "color": "#F39C12",
+          "dash": "dash",
+          "width": 2
+        },
+        "opacity": 0.8,
+        "type": "line",
+        "x0": "2025<br>Mar",
+        "x1": "2025<br>Mar",
+        "xref": "x",
+        "y0": 0,
+        "y1": 1,
+        "yref": "y domain"
+      },
+      {
+        "line": {
+          "color": "#E74C3C",
+          "dash": "dash",
+          "width": 2
+        },
+        "opacity": 0.8,
+        "type": "line",
+        "x0": "2025<br>Aug",
+        "x1": "2025<br>Aug",
+        "xref": "x",
+        "y0": 0,
+        "y1": 1,
+        "yref": "y domain"
+      },
+      {
+        "line": {
+          "color": "#3498DB",
+          "dash": "solid",
+          "width": 2
+        },
+        "opacity": 0.8,
+        "type": "line",
+        "x0": "2026<br>Mar",
+        "x1": "2026<br>Mar",
+        "xref": "x",
+        "y0": 0,
+        "y1": 1,
+        "yref": "y domain"
+      }
+    ],
+    "annotations": [
+      {
+        "align": "left",
+        "bgcolor": "rgba(0,0,0,0.5)",
+        "bordercolor": "#2ECC71",
+        "borderwidth": 1,
+        "font": {
+          "color": "#2ECC71",
+          "size": 12
+        },
+        "showarrow": false,
+        "text": "<b>Baseline</b><br><span style='font-size:10px'>Original Tax:<br>18.8% (MFN+VAT)</span>",
+        "x": "2024<br>Jan",
+        "xanchor": "left",
+        "y": 1.05,
+        "yref": "paper"
+      },
+      {
+        "align": "left",
+        "bgcolor": "rgba(0,0,0,0.5)",
+        "bordercolor": "#F39C12",
+        "borderwidth": 1,
+        "font": {
+          "color": "#F39C12",
+          "size": 12
+        },
+        "showarrow": false,
+        "text": "<b>Escalation</b><br><span style='font-size:10px'>Retaliation:<br>100% Canola Oil&Meal Duty</span>",
+        "x": "2025<br>Mar",
+        "xanchor": "left",
+        "y": 1.05,
+        "yref": "paper"
+      },
+      {
+        "align": "left",
+        "bgcolor": "rgba(0,0,0,0.5)",
+        "bordercolor": "#E74C3C",
+        "borderwidth": 1,
+        "font": {
+          "color": "#E74C3C",
+          "size": 12
+        },
+        "showarrow": false,
+        "text": "<b>Crisis</b><br><span style='font-size:10px'>Market Closure:<br>Anti-dumping Deposit</span>",
+        "x": "2025<br>Aug",
+        "xanchor": "left",
+        "y": 1.05,
+        "yref": "paper"
+      },
+      {
+        "align": "left",
+        "bgcolor": "rgba(0,0,0,0.5)",
+        "bordercolor": "#3498DB",
+        "borderwidth": 1,
+        "font": {
+          "color": "#3498DB",
+          "size": 12
+        },
+        "showarrow": false,
+        "text": "<b>Opportunity</b><br><span style='font-size:10px'>Trade Reset:<br>~15% Rate(Lower!)</span>",
+        "x": "2026<br>Mar",
+        "xanchor": "left",
+        "y": 1.05,
+        "yref": "paper"
+      }
+    ],
     "font": {
       "color": "white",
       "size": 12
@@ -2540,12 +2668,13 @@
         "2025<br>Jul",
         "2025<br>Aug",
         "2025<br>Sep",
-        "2025<br>Oct"
+        "2025<br>Oct",
+        "2026<br>Mar"
       ],
       "tickangle": 0,
       "range": [
-        11.5,
-        21.5
+        12.5,
+        22.5
       ],
       "gridcolor": "rgba(255,255,255,0.1)"
     },
