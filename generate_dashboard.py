@@ -376,6 +376,7 @@ def generate_plot(df: pd.DataFrame, color_map: Dict, name_mapping: Dict, sorted_
     # Event Data Configuration
     EVENTS = [
         {"date": "2024<br>Jan", "label": "Baseline", "color": "#2ECC71", "style": "solid", "text": "Original Tax:<br>18.8% (MFN+VAT)"},
+        {"date": "2024<br>Sep", "label": "Warning", "color": "#F1C40F", "style": "dash", "text": "Probe Starts:<br>Anti-dumping"},
         {"date": "2025<br>Mar", "label": "Escalation", "color": "#F39C12", "style": "dash", "text": "Retaliation:<br>100% Canola Oil&Meal Duty"},
         {"date": "2025<br>Aug", "label": "Crisis", "color": "#E74C3C", "style": "dash", "text": "Market Closure:<br>Anti-dumping Deposit"},
         {"date": "2026<br>Mar", "label": "Opportunity", "color": "#3498DB", "style": "solid", "text": "Trade Reset:<br>~15% Rate(Lower!)"}

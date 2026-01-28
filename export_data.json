@@ -2503,6 +2503,21 @@
       },
       {
         "line": {
+          "color": "#F1C40F",
+          "dash": "dash",
+          "width": 2
+        },
+        "opacity": 0.8,
+        "type": "line",
+        "x0": "2024<br>Sep",
+        "x1": "2024<br>Sep",
+        "xref": "x",
+        "y0": 0,
+        "y1": 1,
+        "yref": "y domain"
+      },
+      {
+        "line": {
           "color": "#F39C12",
           "dash": "dash",
           "width": 2
@@ -2560,6 +2575,22 @@
         "showarrow": false,
         "text": "<b>Baseline</b><br><span style='font-size:10px'>Original Tax:<br>18.8% (MFN+VAT)</span>",
         "x": "2024<br>Jan",
+        "xanchor": "left",
+        "y": 1.05,
+        "yref": "paper"
+      },
+      {
+        "align": "left",
+        "bgcolor": "rgba(0,0,0,0.5)",
+        "bordercolor": "#F1C40F",
+        "borderwidth": 1,
+        "font": {
+          "color": "#F1C40F",
+          "size": 12
+        },
+        "showarrow": false,
+        "text": "<b>Warning</b><br><span style='font-size:10px'>Probe Starts:<br>Anti-dumping</span>",
+        "x": "2024<br>Sep",
         "xanchor": "left",
         "y": 1.05,
         "yref": "paper"
